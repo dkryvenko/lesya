@@ -22,8 +22,8 @@ public class HelloController {
     @RequestMapping(value = "/hello/{name:.+}", method = RequestMethod.GET)
     public ModelAndView hello(@PathVariable("name") String name) {
         ModelAndView model = new ModelAndView();
-        model.setViewName("hello");
         model.addObject("msg", name);
+        model.setViewName("hello");
         return model;
     }
 

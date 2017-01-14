@@ -1,3 +1,4 @@
 <html>
-    <h1>Hello, ${msg}!</h1>
+My App
+    <h2>Hello, ${msg}!</h1>
 </html>
